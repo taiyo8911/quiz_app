@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-  <title>首都クイズ</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>クイズアプリ</title>
+  </head>
 
-<body>
-  <h1 class="text-center">首都クイズ</h1>
-  <div id="question"></div>
-  <div id="choice">
-    <button class="button" id="a1" onclick="judgment(1)"></button>
-    <button class="button" id="a2" onclick="judgment(2)"></button>
-    <button class="button" id="a3" onclick="judgment(3)"></button>
-    <button class="button" id="a4" onclick="judgment(4)"></button>
-  </div>
-  <button class="button" onclick="location.reload()">はじめに戻る</button>
-  <script type="text/javascript" src="script.js"></script>
-</body>
+  <body>
+    <div class="container">
+      <h1>クイズアプリ</h1>
+      <div id="question"></div>
+      <div id="choice"></div>
+      <button id="restart-btn" class="button">はじめに戻る</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
 
 </html>
